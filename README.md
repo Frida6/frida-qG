@@ -1,5 +1,4 @@
 # frida-qG
-This is a quiz game 
 #include<stdio.h>
 #include<conio.h>
 #include<ctype.h>
@@ -127,44 +126,44 @@ int main()
 
         case 3:
 		printf("\n\n\nWhich animal laughs like human being?");
-		printf("\n\nA.Polar Bear\t\tB.Hyena\n\nC.Donkey\t\tD.Chimpanzee");
-		if (toupper(getch())=='B')
+		printf("\n\nA.Polar Bear\t\tB.Donkey\n\nC.Hyena\t\tD.Chimpanzee");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");count++;
 			getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.Hyena");
+		       {printf("\n\nWrong!!! The correct answer is C.Hyena");
 		       getch();
 		       break;}
 
         case 4:
 		printf("\n\n\nWhat is the most popular colour in the flags of most countries in the world?");
-		printf("\n\nA.Red\t\tB.Blue\n\nC.Green\t\tD.White");
-		if (toupper(getch())=='A')
+		printf("\n\nA.Green\t\tB.Blue\n\nC.Red\t\tD.White");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");count++;
 			getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.");
+		       {printf("\n\nWrong!!! The correct answer is C.");
 		       getch();
 		       break;}
 
         case 5:
         printf("\n\n\nWhich is the third highest mountain in the world?");
-        printf("\n\nA.Mt. K2\t\tB.Mt. Kanchanjungha\n\nC.Mt. Makalu\t\tD.Mt. Kilimanjaro");
-        if (toupper(getch())=='B')
+        printf("\n\nA.Mt. K2\t\tB.Mekalu\n\nC.Mt. Kanchanjungha\t\tD.Mt. Kilimanjaro");
+        if (toupper(getch())=='C')
                {printf("\n\nCorrect!!!");count++;
                getch();
                 break;}
         else
-		       {printf("\n\nWrong!!! The correct answer is B.Mt. Kanchanjungha");
+		       {printf("\n\nWrong!!! The correct answer is C.Mt. Kanchanjungha");
 		       getch();
 		       break;}
 
         case 6:
 		printf("\n\n\nWhat is the group of frogs known as?");
-		printf("\n\nA.A traffic\t\tB.A toddler\n\nC.A police\t\tD.An Army");
-		if (toupper(getch())=='D' )
+		printf("\n\nA.A traffic\t\tB.A toddler\n\nC.AN Army\t\tD.A police");
+		if (toupper(getch())=='C' )
 			{printf("\n\nCorrect!!!");count++;
 			getch();
 			break;}
@@ -210,12 +209,12 @@ game:
 
 		case 2:
 		printf("\n\n\nStudy of Earthquake is called............,");
-		printf("\n\nA.Seismology\t\tB.Cosmology\n\nC.Orology\t\tD.Etimology");
-		if (toupper(getch())=='A')
+		printf("\n\nA.Orology\t\tB.Cosmology\n\nC.Seismology\t\tD.Etimology");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Seismology");getch();
+		       {printf("\n\nWrong!!! The correct answer is C.Seismology");getch();
 		      goto score;
 		       break;
 		       }
@@ -233,25 +232,25 @@ game:
 
         case 4:
 		printf("\n\n\nThe Laws of Electromagnetic Induction were given by?");
-		printf("\n\nA.Faraday\t\tB.Tesla\n\nC.Maxwell\t\tD.Coulomb");
-		if (toupper(getch())=='A')
+		printf("\n\nA.Maxwell\t\tB.Tesla\n\nC.Faraday\t\tD.Coulomb");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
 		       {
-                printf("\n\nWrong!!! The correct answer is A.Faraday");getch();
+                printf("\n\nWrong!!! The correct answer is C.Faraday");getch();
 		       goto score;
 		       break;
 		       }
 
         case 5:
 		printf("\n\n\nIn what unit is electric power measured?");
-		printf("\n\nA.Coulomb\t\tB.Watt\n\nC.Power\t\tD.Units");
-		if (toupper(getch())=='B')
+		printf("\n\nA.Coulomb\t\tB.Power\n\nC.Watt\t\tD.Units");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch(); break;}
 		else
 		       {
-		           printf("\n\nWrong!!! The correct answer is B.Power");
+		           printf("\n\nWrong!!! The correct answer is C.Power");
 		       getch();
 		       goto score;
 		       break;
@@ -259,54 +258,54 @@ game:
 
 		case 6:
 		printf("\n\n\nWhich element is found in Vitamin B12?");
-		printf("\n\nA.Zinc\t\tB.Cobalt\n\nC.Calcium\t\tD.Iron");
-		if (toupper(getch())=='B' )
+		printf("\n\nA.Zinc\t\tB.Calcium\n\nC.Cobalt\t\tD.Iron");
+		if (toupper(getch())=='C' )
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.Cobalt");goto score;
+		       {printf("\n\nWrong!!! The correct answer is C.Cobalt");goto score;
 		       getch();
 		       break;}
 
         case 7:
 		printf("\n\n\nWhat is the National Name of Japan?");
-		printf("\n\nA.Polska\t\tB.Hellas\n\nC.Drukyul\t\tD.Nippon");
-		if (toupper(getch())=='D')
+		printf("\n\nA.Polska\t\tB.Hellas\n\nC.Nippon\t\tD.Drukyul");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.Nippon");getch();
+		       {printf("\n\nWrong!!! The correct answer is C.Nippon");getch();
 		       goto score;
 		       break;}
 
         case 8:
 		printf("\n\n\nHow many times a piece of paper can be folded at the most?");
-		printf("\n\nA.6\t\tB.7\n\nC.8\t\tD.Depends on the size of paper");
-		if (toupper(getch())=='B')
+		printf("\n\nA.6\t\tB.8\n\nC.7\t\tD.Depends on the size of paper");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch(); break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.7");getch();
+		       {printf("\n\nWrong!!! The correct answer is C.7");getch();
 		       goto score;
 		       break;}
 
         case 9:
 		printf("\n\n\nWhat is the capital of Denmark?");
-		printf("\n\nA.Copenhagen\t\tB.Helsinki\n\nC.Ajax\t\tD.Galatasaray");
-		if (toupper(getch())=='A')
+		printf("\n\nA.Ajax\t\tB.Helsinki\n\nC.Copenhagen \t\tD.Galatasaray");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Copenhagen");getch();
+		       {printf("\n\nWrong!!! The correct answer is C.Copenhagen");getch();
 		       goto score;
 		       break;}
 
         case 10:
 		printf("\n\n\nWhich is the longest River in the world?");
-		printf("\n\nA.Nile\t\tB.Koshi\n\nC.Ganga\t\tD.Amazon");
-		if (toupper(getch())=='A')
+		printf("\n\nA.Ganga\t\tB.Koshi\n\nC.Nile\t\tD.Amazon");
+		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch(); break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Nile");getch();break;goto score;}
+		       {printf("\n\nWrong!!! The correct answer is C.Nile");getch();break;goto score;}
 
         case 11:
 		printf("\n\n\nWhat is the color of the Black Box in aeroplanes?");
@@ -320,12 +319,12 @@ game:
 
         case 12:
 		printf("\n\n\nWhich city is known at 'The City of Seven Hills'?");
-		printf("\n\nA.Rome\t\tB.Vactican City\n\nC.Madrid\t\tD.Berlin");
-		if (toupper(getch())=='A')
+		printf("\n\nA.Madrid\t\tB.Vactican City\n\nC.Rome\t\tD.Berlin");
+		if (toupper(getch())=='C')
 			  {printf("\n\nCorrect!!!");countr++;getch();
 			   break;}
 		else
-              {printf("\n\nWrong!!! The correct answer is A.Rome");getch();
+              {printf("\n\nWrong!!! The correct answer is C.Rome");getch();
               break;goto score;}
 
 		case 13:
